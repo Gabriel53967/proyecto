@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a  class="navbar-brand" href="#">
+Roseville
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse"
+data-target="#navbarNav" aria-controls="navbarNav"
+aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="/Inicio/reservacion">Realizar Reservacion</a>
+<a class="nav-link" href="/usuario/validarempleado">Iniciar sesion como Empleado</a>
+
+<span  class="sr-only">
+(current)
+</span>
+
+
+
+</ul>
+
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="/usuario/salir"> <i class="fas fa-door-open"></i>Cerran Sesion</a>
+</li>
+</ul>
+
+</div>
+</nav>
+
+
+<nav th:fragment="navbar2" class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a  class="navbar-brand" href="#">
+Roseville
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse"
+data-target="#navbarNav" aria-controls="navbarNav"
+aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="/Inicio/inicio">Volver al inicio
+<span  class="sr-only">
+(current)
+</span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+
+
+<nav th:fragment="navbar3" class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a  class="navbar-brand" href="#">
+Roseville
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse"
+data-target="#navbarNav" aria-controls="navbarNav"
+aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item active">
+
+<span  class="sr-only">
+(current)
+</span>
+
+</li>
+</ul>
+
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="/usuario/salir"> <i class="fas fa-door-open"></i>Cerran Sesion</a>
+</li>
+</ul>
+</div>
+</nav>
+
+
+
+
+</body>
+</html>
